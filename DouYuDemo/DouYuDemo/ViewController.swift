@@ -1,0 +1,20 @@
+//
+//  ViewController.swift
+//  DouYuDemo
+//
+//  Created by zsgjs on 2020/7/1.
+//  Copyright © 2020 zsgjs. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+
+}
+
