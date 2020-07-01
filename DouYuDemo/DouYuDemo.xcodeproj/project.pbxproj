@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E697938F24AC1D9F0045E0D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E697938E24AC1D9F0045E0D9 /* AppDelegate.swift */; };
 		E697939124AC1D9F0045E0D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E697939024AC1D9F0045E0D9 /* SceneDelegate.swift */; };
-		E697939324AC1D9F0045E0D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E697939224AC1D9F0045E0D9 /* ViewController.swift */; };
 		E697939624AC1D9F0045E0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E697939424AC1D9F0045E0D9 /* Main.storyboard */; };
 		E697939824AC1DA20045E0D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E697939724AC1DA20045E0D9 /* Assets.xcassets */; };
 		E697939B24AC1DA20045E0D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E697939924AC1DA20045E0D9 /* LaunchScreen.storyboard */; };
@@ -38,7 +37,6 @@
 		E697938B24AC1D9F0045E0D9 /* DouYuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E697938E24AC1D9F0045E0D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E697939024AC1D9F0045E0D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E697939224AC1D9F0045E0D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E697939524AC1D9F0045E0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E697939724AC1DA20045E0D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E697939A24AC1DA20045E0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,9 +97,14 @@
 		E697938D24AC1D9F0045E0D9 /* DouYuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E6E9799C24AC553B0042304C /* Main */,
+				E6E9799B24AC553B0042304C /* Home */,
+				E6E9799A24AC553B0042304C /* Follow */,
+				E6E9799924AC553B0042304C /* Live */,
+				E6E9799E24AC553B0042304C /* Profile */,
+				E6E9799D24AC553B0042304C /* Tools */,
 				E697938E24AC1D9F0045E0D9 /* AppDelegate.swift */,
 				E697939024AC1D9F0045E0D9 /* SceneDelegate.swift */,
-				E697939224AC1D9F0045E0D9 /* ViewController.swift */,
 				E697939424AC1D9F0045E0D9 /* Main.storyboard */,
 				E697939724AC1DA20045E0D9 /* Assets.xcassets */,
 				E697939924AC1DA20045E0D9 /* LaunchScreen.storyboard */,
@@ -126,6 +129,48 @@
 				E69793B224AC1DA20045E0D9 /* Info.plist */,
 			);
 			path = DouYuDemoUITests;
+			sourceTree = "<group>";
+		};
+		E6E9799924AC553B0042304C /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		E6E9799A24AC553B0042304C /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		E6E9799B24AC553B0042304C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E6E9799C24AC553B0042304C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E6E9799D24AC553B0042304C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E6E9799E24AC553B0042304C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +304,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E697939324AC1D9F0045E0D9 /* ViewController.swift in Sources */,
 				E697938F24AC1D9F0045E0D9 /* AppDelegate.swift in Sources */,
 				E697939124AC1D9F0045E0D9 /* SceneDelegate.swift in Sources */,
 			);
